@@ -9,6 +9,9 @@
 # Command to manually create 4 replicas of a deployed app.
 kubectl scale deployment ghost --replicas=4
 
+# Get the number of pods - there should be 4 pods for the deployment above
+kubectl get pods
+
 # The following commands are used to create an autoscaler which will
 # automatically scale the application based on the CPU usage.
 
