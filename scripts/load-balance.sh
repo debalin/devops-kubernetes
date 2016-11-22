@@ -16,11 +16,6 @@ kubectl expose deployment ghost --type=LoadBalancer --name=ghost-load-balancer
 kubectl get services ghost-load-balancer
 kubectl describe service ghost-load-balancer
 
-# Get the external IP and port from the above query commands.
-EXTERNAL_IP = `kubectl get services ghost-load-balancer | grep ghost-load-balancer | awk '{print $3}'`
-NODE_PORT = `kubectl describe service ghost-load-balancer | grep NodePort | tr -dc '0-9'`
-
-# Send a request to the load balancer to run the webapp.
-curl http://$EXTERNAL_IP:$PORT
-
-
+# Can run the webapp using http://<node_ip>/<node_port>
+# node_ip: This is the IP address of any node in the cluster (it will be automatically routed to the correct node).
+# node_port: This is the port number exposed which can be seen in the "NodePort" field in the describe service output.
