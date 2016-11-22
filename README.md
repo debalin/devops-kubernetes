@@ -11,7 +11,7 @@ https://docs.google.com/document/d/1GWdnvgtoqhpivx3t-jv1-OJBVFtdgcTqMylCCYfphgk/
 ### KUBERNETES
 
 Kubernetes is an open source system for automating the deployment, scaling and management of applications running on containers. 
-Kubernetes is an open source container and cluster manager that was designed by Google and donated to the Cloud Native Computing Foundation.  It usually works with Docker Containers and manages the traffic in between the cluster of hosts that are running the Docker containers. 
+Kubernetes is an open source container and cluster manager that was designed by Google and donated to the **Cloud Native Computing Foundation.**  It usually works with Docker Containers and manages the traffic in between the cluster of hosts that are running the Docker containers. 
 
 ### History 
 It was founded by Joe Bada, Brendan Burns and Craig McLuckie and was founded by Google in 2014. 
