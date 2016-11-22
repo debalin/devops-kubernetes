@@ -35,7 +35,7 @@ Kubenetes has the following features: -
 ### Kubernetes Clusters
 Kubernetes Clusters are a collection of computers each running an application that are coordinated and synchronized as a single unit. Kubernetes can deploy these applications to a cluster without tying them on a particular machine.  
 These makes the applications more flexible and available. A cluster contains the following: -  </br>
-**Master**: It co-ordinates the cluster and manages all the applications like scheduling applications, maintaining the desired state and rolling out new updates. 
+**Master**: It co-ordinates the cluster and manages all the applications like scheduling applications, maintaining the desired state and rolling out new updates. </br>
 **Nodes**: It is a VM or a worker machine that acts as a worker machine on which the application runs. Every node runs a Kubelet which communicates the Kubernetes master. Every Node runs at least:-  
 * **Kubelet**: A process responsible for communication between the master and the nodes. 
 * A container run time responsible for pulling the container image from registry, unpacking the container and running the application.  
