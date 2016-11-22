@@ -20,7 +20,7 @@ curl -sS https://get.k8s.io | bash
 # For Linux.
 wget https://storage.googleapis.com/kubernetes-release/release/v1.4.4/bin/linux/amd64/kubectl
 chmod +x kubectl
-alias kubectl=`pwd`/kubectl
+sudo cp kubectl /usr/local/bin/
 
 # Set up the environment variable to point to kubectl's configuration file.
 # This is populated by the Kubernetes install script above.
