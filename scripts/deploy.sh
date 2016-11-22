@@ -11,7 +11,7 @@ kubectl get nodes
 # Runs the deployment for the "ghost" docker image (hosted on DockerHub).
 # To host your own app, you would need to build a docker image for your
 # app and upload it to DockerHub.
-kubectl run ghost --image=nginx --port=80
+kubectl run ghost --image=docker.io/jocatalin/kubernetes-bootcamp:v1 --port=8080
 
 # Returns a list of pods created by deployments.
 # The above deployment should have created only 1 pod with 1 container within.
