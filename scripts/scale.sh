@@ -30,3 +30,6 @@ kubectl autoscale deployment ghost --cpu-percent=50 --min=1 --max=10
 
 # Get the list of all autoscalers and their status.
 kubectl get hpa
+
+# Describe the autoscaler just created.
+kubectl describe hpa
