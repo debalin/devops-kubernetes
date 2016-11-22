@@ -58,7 +58,7 @@ Kubernetes has a method to auto-scale an application based on the resource utili
 ![scale](https://github.com/debalin/devops-kubernetes/blob/master/res/scale.png "scale") 
 
 ### Performing a Rolling Update
-Rolling Updates allow deployments to occur with zero run time by incrementally updating pod instances with new ones. The new pods will be scheduled on nodes with available resources. Rolling updates allow the following actions:  
+Rolling Updates allow deployments to occur with zero down time by incrementally updating pod instances with new ones. The new pods will be scheduled on nodes with available resources. Rolling updates allow the following actions:  
 * Promote an application from one environment to another.
 * Rolling back to previous versions.
 * Continuous integration and continuous delivery with zero downtime.
